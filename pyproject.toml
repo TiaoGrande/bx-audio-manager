@@ -16,7 +16,7 @@ dev = [
 ]
 
 [project.scripts]
-bx = "bx:_cli_wrapper"
+bx = "bx:_cli"
 
 [build-system]
 requires = ["setuptools>=68"]
