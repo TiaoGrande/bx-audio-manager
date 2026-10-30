@@ -1,0 +1,9 @@
+# BX Audio Manager — dependências Python OPCIONAIS
+#
+# O projeto roda com a stdlib + ffmpeg/ffprobe. Nada aqui é obrigatório.
+# As 2 libs que apareciam em versões antigas (deep-translator,
+# syncedlyrics) foram REMOVIDAS: o código atual usa urllib.request
+# puro para tradução (MyMemory) e letras (LRCLIB).
+
+# Melhora a detecção de encoding em _fix_mojibake (fallback opcional).
+charset-normalizer~=3.3.2

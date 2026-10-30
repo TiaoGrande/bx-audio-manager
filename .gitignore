@@ -1,0 +1,48 @@
+# Runtime / estado local
+.bx_backups/
+.bx_teste/
+temp_bx/
+logs/
+*.db
+*.db-wal
+*.db-shm
+biblioteca.db*
+diario_renomeacoes.log
+pendentes.txt
+fila_downloads.txt*
+historico_execucoes.jsonl
+historico.txt
+erros_pendentes.jsonl
+journal.jsonl
+raridades.m3u
+*.bxpart
+*.lrc.org
+*.encoding.log
+*.bxtmp*
+
+# Config do usuário
+config/
+
+# Backups locais (pré-bloco*, .bak, .bak2, .bak3)
+*.bak*
+*.pre_bloco*
+
+# Ferramentas
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Runtime adicional (backups/bin/lock/egg-info)
+backups/
+bin/
+bx.lock
+*.egg-info/
