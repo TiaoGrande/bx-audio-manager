@@ -3,6 +3,7 @@
 Organizador de acervo musical para Android/Termux.
 Renomeia, move, tagueia e mantém catálogo SQLite com durabilidade
 (POSIX atômico, fsync, journal hash-chain, lock flock).
+⚠️ primeiro teste ,depois execute(Está em fase de testes. Não 100% validado. Pode conter erros.)
 
 ## Requisitos
 
